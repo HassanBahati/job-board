@@ -26,7 +26,7 @@ const DetailedJobs = () => {
       <article className="px-4 py-5 mx-auto max-w-7xl">
         <div className="w-full mx-auto mb-12 text-left md:w-3/4 lg:w-1/2">
           <p className="mt-6 mb-2 text-xs font-semibold tracking-wider uppercase text-primary">
-            {job?.attributes?.categories?.data[0]?.attributes?.type + " LEVEL"}
+            {job?.attributes?.categories?.data[0]?.attributes?.name + " LEVEL"}
           </p>
           <h1 className="mb-3 text-3xl font-bold leading-tight text-gray-900 md:text-4xl">
             {job?.attributes?.vacancy}
